@@ -1,0 +1,599 @@
+/*general*/
+
+html, body{
+    font-family: Raleway;
+}
+.colorBleu {
+    color: #0065FC;
+}
+.colorBleuCiel {
+    color: #DEEBFF;
+}
+.colorGrey {
+    color: #F2F2F2;
+}
+.backgroundGrey{
+    background-color: #F2F2F2;
+}
+.bold {
+    font-weight: bold;
+}
+.flexCentre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexAround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexColumnCentre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flexColumnBetween{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+} 
+.flexColumnAround{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+/* nav */
+.marginlogo{
+    margin-bottom: 7px;
+}
+.sizenav{
+    height: auto;
+}
+.sizeliens{
+    width: 100%;
+}
+.sizelien{
+    width: 140px;
+    height: 99px;
+}
+.sizelien12{
+    margin-left: 60%;
+}
+.colorlien2{
+    color: black;
+}
+.none{
+    text-decoration: none;
+}
+.bordernav{
+    border-top: 2px solid transparent;
+}
+.bordernav:hover{
+    border-top: 2px solid #0065FC;
+    cursor: pointer;
+}
+.bordernav:hover > a{
+    color: #0065FC;
+}
+/* barre de recherche */
+.destopNone {
+    display: none;
+}
+.searchbarre{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #F2F2F2;
+   
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+}
+.saisie{
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding-left: 20px;
+}
+.bouton{
+    background-color: #0065FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+/* filtres */
+
+.filtre{
+    display: flex;
+    align-items: center;
+}
+.margefiltre{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.margefiltretitre{
+    margin-right: 20px;
+}
+.filtretexticons{
+    border: 4px solid #F2F2F2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.filtreicon{
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+.filtretexticons:hover > .filtretext {
+    color: #0065FC;
+}
+.filtretexticons:hover > .filtreicon {
+    color: white;
+    background-color: #0065FC;
+}
+.filtretext {
+    height: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 0 25px 25px 0;
+    font-family: 'Raleway', sans-serif;
+}
+/*info*/
+.info {
+    display: flex;
+    align-items: center;
+}
+.parentIcon {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #F2F2F2;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+/*hebergement*/
+.sizehebergements{
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.sizepopulaires{
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.imghebergement1{
+    background-image: url("./image/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imghebergement2{
+    background-image: url("./image/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imghebergement3{
+    background-image: url("./image/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imghebergement4{
+    background-image: url("./image/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imghebergement5{
+    background-image: url("./image/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imghebergement6{
+    background-image: url("./image/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.blochebergements{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cubehebergements{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+    /* ajout pour version mobile et destop */
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+.cubehebergements:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.bloc1{
+    margin-bottom: 10px;
+}
+.bloc2{
+    margin-top: 10px;
+}
+.cubeDetailshebergement{
+    width: 90%;
+}
+
+/*Les plus Populaires*/
+.blocpopulaires{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.imgpopulaires1{
+    background-image: url("./image/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.imgpopulaires2{
+    background-image: url("./image/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.imgpopulaires3{
+    background-image: url("./image/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.cubepopulaires{
+    background-color: white;
+    height: auto;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+}
+.cubepopulaires:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.blocpopulaires12{
+    margin-bottom: 22px;
+}
+.cubeDetailspopulaires{
+    width: 60%;
+    padding-left: 5%;
+}
+/* Activités */
+.Activites{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.blocativites{
+    width: 100%;
+    height: 600px;
+}
+.blocativites2356{
+    width: 23%;
+    height: 600px;
+}
+
+.cubeactivites{
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+.cubeactivites2356{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+.cubeactivites:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.cubeactivites2356:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.imgactivites1{
+    background-image: url("./image/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0;
+}
+.imgactivites2{
+    background-image: url("./image/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+}.imgactivites3{
+    background-image: url("./image/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+}
+.imgactivites4{
+    background-image: url("./image/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0;
+}
+.imgactivites5{
+    background-image: url("./image/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}.imgactivites6{
+    background-image: url("./image/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+.hauteurtitre{
+    height: 70px;
+}
+.titreactivites{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5px;
+    width: 95%;
+}
+/* footer */
+.footer{
+    height: 300px;
+    margin-top: 100px;
+}
+.tailleblocfooter{
+    height: 150px;
+}
+.margeblocfooter1{
+    margin-left: 10%;
+}
+.margeblocfooter2{
+    margin-right: 5%;
+}
+.margeblocfooter3{
+    margin-right: 30%;
+}
+/* Mobile */
+
+@media screen and (max-width: 1295px) {
+    .sizelien12 {
+        margin-left: 35%;
+    }
+    .cubeDetailshebergement {
+        min-height: 150px;
+    }
+    .sizehebergements {
+        min-height: auto;
+        padding: 20px;
+    }
+    .sizepopulaires {
+        min-height: auto;
+        padding: 20px;
+    }
+    .tabletteSizePop{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 990px) {
+    .mobileFiltreWrap{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .filtretexticons {
+        margin-bottom: 20px;
+    }
+    #hebergements {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .blocpopulaires {
+        flex: none;
+        width: 90%;
+        margin-left: 0;
+        padding: 5%;
+    }
+    .blochebergements {
+        flex: none;
+        width: 90%;
+        margin-right: 0;
+        margin-top: 50px;
+        padding: 5%;
+    }
+}
+@media screen and (max-width: 770px) {
+    .sizeliens {
+        width: 90%;
+    }
+    .sizelien12 {
+        margin-left: 20%;
+    }
+    .blochebergements {
+        height: auto;
+    }
+    .bloc1 {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .bloc2 {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .cubehebergements {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .cubeDetailshebergement {
+        min-width: auto;
+    }
+    .blocativites {
+        flex-direction: column;
+        height: auto;
+    }
+    .cubeactivites {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .blocativites2356 {
+        width: 100%;
+        height: auto;
+    }
+    .cubeactivites2356 {
+        margin-bottom: 50px;
+    }
+    .imgactivites1, .imgactivites2, .imgactivites3, .imgactivites4, .imgactivites5, .imgactivites6 {
+        height: 200px;
+    }
+    .footer {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+    .margeblocfooter1 {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .sizelien {
+        flex-direction: row;
+    }
+    .sizelien12 {
+        order: 1;
+        width: 100%;
+        margin-left: 0;
+    }
+    .sizeLienMobile {
+        width: 50%;
+        border-top: none;
+        border-bottom: 5px solid #F2F2F2;
+    }
+    .sizeLienMobile:hover {
+        border-top: 0;
+        border-bottom: 5px solid #0065FC;
+    }
+    .sizeliens {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .mobileTitreh1 {
+        font-size: x-large;
+    }
+    .searchbarre {
+        width: auto;
+        border: none;
+    }
+    .saisie {
+        width: 200px;
+        border-bottom: 1px solid #F2F2F2;
+        border-top: 1px solid #F2F2F2;
+    }
+    .bouton {
+        width: 50px;
+        border-radius: 15px;
+    }
+    .destopNone {
+        display: block;
+    }
+    .mobileNone {
+        display: none;
+    }
+    /* mise en page mobile */
+
+    .mobileEconomiques {
+        margin-right: 5px;
+    }
+    .mobileFamiliales {
+        margin-right: 0;
+    }
+    .filtretext {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .info {
+        padding-left: 5%;
+    }
+    .blocpopulaires {
+        border-radius: 0;
+    }
+    .blochebergements {
+        background-color: white;
+    }
+    .blocativites {
+        padding: 5%;
+        width: 90%;
+    }
+    .mobileTitrePara {
+        padding-left: 5%;
+    }
+    html, body {
+        margin: 0;
+        padding: 0;
+    }
+    .margefiltre {
+        padding: 5%;
+    }
+}
