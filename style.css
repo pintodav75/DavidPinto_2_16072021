@@ -1,4 +1,16 @@
 /*general*/
+.fixIcon {
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.33333em;
+    line-height: .75em;
+    vertical-align: -.0667em;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+}
 
 html, body{
     font-family: Raleway;
