@@ -203,7 +203,7 @@ html, body{
     border-radius: 10px;
 }
 .imghebergement1{
-    background-image: url("./image/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-image: url("./../image/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -211,7 +211,7 @@ html, body{
     border-radius: 15px 15px 0 0;
 }
 .imghebergement2{
-    background-image: url("./image/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-image: url("./../image/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -219,7 +219,7 @@ html, body{
     border-radius: 15px 15px 0 0;
 }
 .imghebergement3{
-    background-image: url("./image/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-image: url("./../image/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -227,7 +227,7 @@ html, body{
     border-radius: 15px 15px 0 0;
 }
 .imghebergement4{
-    background-image: url("./image/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-image: url("./../image/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -235,7 +235,7 @@ html, body{
     border-radius: 15px 15px 0 0;
 }
 .imghebergement5{
-    background-image: url("./image/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-image: url("./../image/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -243,7 +243,7 @@ html, body{
     border-radius: 15px 15px 0 0;
 }
 .imghebergement6{
-    background-image: url("./image/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-image: url("./../image/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -283,7 +283,7 @@ html, body{
     padding-right: 20px;
 }
 .imgpopulaires1{
-    background-image: url("./image/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-image: url("./../image/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 35%;
@@ -291,7 +291,7 @@ html, body{
     border-radius: 15px 0 0 15px;
 }
 .imgpopulaires2{
-    background-image: url("./image/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-image: url("./../image/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 35%;
@@ -299,7 +299,7 @@ html, body{
     border-radius: 15px 0 0 15px;
 }
 .imgpopulaires3{
-    background-image: url("./image/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-image: url("./../image/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 35%;
@@ -356,7 +356,7 @@ html, body{
     transform: scale(1.03);
 }
 .imgactivites1{
-    background-image: url("./image/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-image: url("./../image/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -364,14 +364,14 @@ html, body{
     border-radius: 15px 15px 0 0;
 }
 .imgactivites2{
-    background-image: url("./image/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-image: url("./../image/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 250px;
     border-radius: 15px 15px 0 0;
 }.imgactivites3{
-    background-image: url("./image/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-image: url("./../image/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -379,7 +379,7 @@ html, body{
     border-radius: 15px 15px 0 0;
 }
 .imgactivites4{
-    background-image: url("./image/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-image: url("./../image/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -387,14 +387,14 @@ html, body{
     border-radius: 15px 15px 0 0;
 }
 .imgactivites5{
-    background-image: url("./image/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-image: url("./../image/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 200px;
     border-radius: 15px 15px 0 0;
 }.imgactivites6{
-    background-image: url("./image/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-image: url("./../image/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -428,7 +428,7 @@ html, body{
 .margeblocfooter3{
     margin-right: 30%;
 }
-/* Mobile */
+/* Responsive */
 
 @media screen and (max-width: 1295px) {
     .sizelien12 {
