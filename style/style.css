@@ -430,6 +430,12 @@ html, body{
 }
 /* Responsive */
 
+@media screen and (min-width: 1296px) {
+    .sizelien12 {
+        margin-left: 66%;
+    }
+}
+
 @media screen and (max-width: 1295px) {
     .sizelien12 {
         margin-left: 35%;
