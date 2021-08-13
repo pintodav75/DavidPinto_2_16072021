@@ -432,10 +432,9 @@ html, body{
 
 @media screen and (min-width: 1296px) {
     .sizelien12 {
-        margin-left: 66%;
+        margin-left: 65%;
     }
 }
-
 @media screen and (max-width: 1295px) {
     .sizelien12 {
         margin-left: 35%;
